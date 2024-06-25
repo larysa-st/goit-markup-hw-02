@@ -50,6 +50,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
   color: #434455;
 }
 
@@ -66,15 +67,25 @@ a {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   cursor: pointer;
   background: #4d5ae5;
+}
+
+.button:hover,
+button:focus {
+  background-color: #404bbf;
 }
 
 .title-description {
@@ -90,24 +101,57 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
   color: #434455;
   text-align: left;
 }
 
-.title-2 {
+.our-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-.title-3 {
+.our-portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.ttitle-three-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+.footer-section {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+}
+
+.footer-logo-studio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
