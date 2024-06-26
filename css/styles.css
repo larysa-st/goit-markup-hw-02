@@ -62,8 +62,6 @@ a {
 }
 
 .hero {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 .main-title {
@@ -154,8 +152,6 @@ button:focus {
 
 .footer-section {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 
 .footer-logo-web {
